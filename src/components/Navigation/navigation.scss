@@ -1,0 +1,30 @@
+@import "../../scss/helpers/_variables";
+@import "../../scss/helpers/_mediaQuery";
+.navbar {
+  margin-top: 2rem;
+  @include tablet {
+    padding: 0;
+  }
+  &__list {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+    &-item {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      cursor: pointer;
+      color: $gray-color;
+      &.active {
+        color: $primary-color;
+      }
+      span {
+        text-decoration: none;
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+  }
+}

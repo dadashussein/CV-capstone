@@ -1,0 +1,20 @@
+@import "../../scss/helpers/_variables";
+@import "../../scss/helpers/_mediaQuery";
+.main {
+  display: flex;
+
+  .container {
+    transition: margin-left 0.5s ease-in-out;
+    margin-left: 17rem;
+    margin-right: 2rem;
+    @include tablet {
+      margin-left: 6rem;
+    }
+  }
+  .container.collapsed {
+    margin-left: 2px;
+    @include tablet {
+      margin-left: 3rem;
+    }
+  }
+}

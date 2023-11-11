@@ -1,0 +1,23 @@
+@import "../../scss/helpers/_variables";
+.feedback {
+  &__item {
+    &--content {
+      background-color: rgba(238, 238, 238, 1);
+      margin: 1rem 0;
+      padding: 1rem;
+    }
+    img {
+      width: 3rem;
+      border-radius: 50%;
+    }
+    &--name {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      a {
+        color: $primary-color;
+      }
+    }
+  }
+}

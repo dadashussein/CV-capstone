@@ -1,0 +1,22 @@
+.photobox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  &__title {
+    font-size: 3rem;
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  &__avatar {
+    border: 1px solid #fff;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+}

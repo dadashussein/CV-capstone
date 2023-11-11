@@ -1,0 +1,28 @@
+@import "../../scss/helpers/_variables";
+@import "../../scss/helpers/_mediaQuery";
+@import "../../scss/helpers/reset";
+.address {
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &--icon {
+      color: $primary-color;
+      font-size: 30px;
+      @include tablet {
+        font-size: 28px;
+      }
+    }
+    &--details {
+      &--title {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      &--text {
+        font-size: 14px;
+        color: #666;
+      }
+    }
+  }
+}

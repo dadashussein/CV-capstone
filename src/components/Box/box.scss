@@ -1,0 +1,18 @@
+@import "../../scss/helpers/_variables";
+@import "../../scss/helpers/_mediaQuery";
+.box-component {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+  @include tablet{
+    margin: 2rem .5rem;
+  }
+  &__title {
+    color: $primary-color;
+    font-size: 2rem;
+    margin: 3rem 0;
+    @include tablet{
+      font-size: 1.5rem;
+    }
+  }
+}

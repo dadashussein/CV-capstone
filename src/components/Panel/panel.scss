@@ -1,0 +1,97 @@
+@import "../../scss/helpers/_variables";
+@import "../../scss/helpers/_mediaQuery";
+.panel {
+  display: flex;
+  margin-right: 40px;
+  flex-direction: column;
+  position: fixed;
+  transition: left 0.5s ease-in-out;
+  left: 0;
+  padding: 20px;
+  height: 100%;
+  background: $secondary-color;
+  flex-basis: 200px;
+  flex-grow: 0;
+  width: 250px;
+  opacity: 1;
+
+  &-avatar img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  &.collapsed {
+    left: -250px;
+  }
+  .collapse-btn {
+    width: 34px;
+    position: absolute;
+    top: .5rem;
+    right: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color:$secondary-color;
+    cursor: pointer;
+    span{
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+
+  h1 {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .panel__button button{
+     position: absolute;
+     bottom: 1rem;
+  }
+}
+
+@include tablet {
+  .panel {
+    align-items: center;
+    width: 54px;
+    padding: 1rem 0.3rem;
+    margin-right: 10px;
+
+    &-avatar img {
+      width: 3rem;
+      height: 3rem;
+    }
+    &.collapsed {
+      left: -54px;
+    }
+
+    h1 {
+      display: none;
+    }
+
+    .collapse-btn {
+      right: -54px;
+      left: 54px;
+      font-size: 20px;
+      border-radius: 0 5px 5px 0;
+      border: none;
+      background-color: #282c34;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .panel__button button {
+      background: $primary-color;
+      padding: 0.1rem .8rem;
+      position: absolute;
+      bottom: 1rem;
+      left: .5rem;
+      
+      .button__text {
+        display: none;
+      }
+    }
+  }
+}

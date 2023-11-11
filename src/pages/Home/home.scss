@@ -1,0 +1,26 @@
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #000614),
+    url(../../assets/images/home_bg.png) no-repeat center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #fff;
+    padding: 0 1rem;
+
+    img {
+      width: 200px;
+      height: 200px;
+    }
+    a{
+      margin-top: 2rem;
+    }
+  }
+}

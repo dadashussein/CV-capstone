@@ -1,0 +1,32 @@
+@import "../../scss/helpers/_mediaQuery";
+.expertise {
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    @include tablet {
+      flex-direction: column;
+      align-items: start;
+    }
+    &-left {
+      flex: 1.5;
+      margin-bottom: 2rem;
+      &-date{
+        font-size: 18px;
+      }
+      &-company {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        color: rgb(140, 140, 140);
+      }
+    }
+
+    &-right {
+      flex: 4;
+      margin-bottom: 2rem;
+      h6 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

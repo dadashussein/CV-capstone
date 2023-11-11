@@ -1,0 +1,19 @@
+.info {
+    flex-direction: column;
+    margin-left: 40px;
+    background-color: #eeeeee;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+
+    &__title {
+      margin-bottom: .5rem;
+     font-weight:bold;
+    }
+
+    &__text {
+      margin: 10px 0px;
+    }
+
+
+  }
