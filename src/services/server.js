@@ -1,5 +1,7 @@
 import { createServer, Model } from "miragejs";
 import { v4 as uuidv4 } from "uuid";
+import capstoneImg from "@/assets/images/capstone.png";
+import img2 from "@/assets/images/img2.png";
 
 createServer({
   models: {
@@ -38,23 +40,23 @@ createServer({
         {
           id: 1,
           title: "Project 1",
-          category: "ui",
+          category: "code",
           description: "This is the first project",
-          img: "https://e-ticaret-dadas.s3.eu-north-1.amazonaws.com/ui.png",
-          url: "https://e-ticaret-dadas.s3.eu-north-1.amazonaws.com/ui.png",
+          img: capstoneImg,
+          url: "https://cv-capstone.vercel.app/",
         },
         {
           id: 2,
-          title: "Project 2",
-          category: "ui",
-          description: "This is the second project",
-          img: "https://e-ticaret-dadas.s3.eu-north-1.amazonaws.com/ui.png",
-          url: "https://e-ticaret-dadas.s3.eu-north-1.amazonaws.com/ui.png",
+          title: "Esago",
+          category: "code",
+          description: "CV Builder App",
+          img: img2,
+          url: "https://esago.dadashussein.tech/",
         },
         {
           id: 3,
           title: "Project 3",
-          category: "code",
+          category: "ui",
           description: "This is the third project",
           img: "https://e-ticaret-dadas.s3.eu-north-1.amazonaws.com/code.png",
           url: "https://e-ticaret-dadas.s3.eu-north-1.amazonaws.com/code.png",
@@ -62,7 +64,7 @@ createServer({
         {
           id: 4,
           title: "Project 4",
-          category: "code",
+          category: "ui",
           description: "This is the fourth project",
           img: "https://e-ticaret-dadas.s3.eu-north-1.amazonaws.com/code.png",
           url: "https://e-ticaret-dadas.s3.eu-north-1.amazonaws.com/code.png",

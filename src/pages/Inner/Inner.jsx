@@ -35,12 +35,11 @@ const Inner = () => {
       <section className={`container ${collapsed ? "collapsed" : ""}`}>
         <Box id="about" title="About">
           <p>
-            I&apos;ve been learning Front-End technologies, particularly React,
-            with EPAM Upskills for over 7 months. Currently, I&apos;m at
-            Holberton School, where I&apos;m diving into C, Python, and other
-            most important programs. I&apos;m dedicated to continuous learning
-            and growth in the software world, with a goal of contributing to
-            larger tech projects.
+            I have two years of front-end experience, during these years I have
+            faced many challenges and experience on how to solve them. I was
+            involved in front-end development in two real projects and fulfilled
+            the requirements on time. During the bootcamps attended, I
+            participated in many challenges and won awards.
           </p>
         </Box>
         <Box id="education" title="Education">

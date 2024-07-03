@@ -2,22 +2,21 @@ import photo from "../assets/images/my_foto.jpg";
 
 export const experienceData = [
   {
-    date: "2019-2023",
+    date: "2024-current",
     info: {
-      company: "Clinical Medical Center",
-      job: "Machine Engineer",
+      company: "Azerbaijan Railways",
+      job: "Information Technology Specialist",
       description:
-        "During my tenure as a Machine Engineer at Clinical Medical Center, I played a pivotal role in optimizing and maintaining critical machinery used in the healthcare industry.",
+        "Provided technical support for existing software applications within the company, ensuring their operational readiness and optimal functionality through bug fixes, performance tuning, and system upgrades",
     },
   },
 ];
 
-
-
 export const feedbackData = [
   {
     feedback:
-    " Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor",    reporter: {
+      " Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor",
+    reporter: {
       photoUrl: photo,
       name: "Vincent Egy",
       citeUrl: "https://www.citeexample.com",
@@ -51,9 +50,9 @@ export const addressData = [
   },
   {
     id: 3,
-    icon: "fa-brands fa-twitter",
-    title: "Twitter",
-    text: "https://twitter.com/dadashussein",
+    icon: "fa-solid fa-location-dot",
+    title: "Address",
+    text: "Baku Azerbaijan",
     href: "https://twitter.com/dadashussein",
   },
   {
